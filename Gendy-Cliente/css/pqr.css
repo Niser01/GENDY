@@ -1,0 +1,57 @@
+body{
+    background: #EAEAEA;
+    margin: 0;
+    padding: 0;
+    font-family: Ancizar Sans, sans-serif;
+    font-size: x-large;
+    color: #0E263E;
+    text-align: center;
+    display: grid;
+}
+
+
+
+.barralateral{
+    background: #E48F27;
+    width: 185px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.barralateral input{
+    margin-top:  30%;
+    margin-bottom: 30%;
+    width: 50%
+}
+
+.copyright{
+    font-size: 10px;
+}
+
+
+
+.Logo{
+    width: 25%;
+    position: relative;
+    top: 5%;
+    padding: 10px;
+    
+}
+
+
+
+#principal{
+    display: flex;
+}
+
+
+.preguntas{
+    text-align: left;
+    padding-left: 20%;
+    font-size: 20px;
+}
