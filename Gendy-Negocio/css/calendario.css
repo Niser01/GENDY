@@ -1,0 +1,94 @@
+body{
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Ancizar Sans, sans-serif;
+    font-size: x-large;
+    color: #0E263E;
+    text-align: center;
+    display: grid;
+}
+
+.barralateral{
+    background: #E48F27;
+    width: 2.7%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.abajo{
+    background: #E48F27;
+    width: 5%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    margin-top:  30%;
+    margin-bottom: 30%;
+    width: 100%;
+}
+
+
+.Logo{
+    width: 40%;
+    position: relative;
+    top: 5%;
+    padding: 10px;
+    
+}
+
+.barralateral input{
+    margin-top:  30%;
+    margin-bottom: 30%;
+    width: 50%;
+}
+
+#principal{
+    display: flex;
+}
+
+.tab{
+    margin-left:30px;
+}
+
+.falla{
+    visibility:hidden;
+}
+
+/*-----------------------------*/
+
+.titulo{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+}
+
+
+.container{
+    margin-left: 50%;
+    transform: translateX(-50%);
+  
+    padding-left: 15%;
+    padding-right: 15%;
+
+    
+}
+
+.prueba{
+    text-align: left;
+}
+
+
+#descripcionEvento{
+    float:left;
+}
+
+

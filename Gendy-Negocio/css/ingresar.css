@@ -1,0 +1,90 @@
+body{
+    background:#ffffff;;
+    font-family: Ancizar Sans, sans-serif;
+    color: #0E263E;
+    position: relative;
+    justify-content: left;
+}
+
+.ingresar_Panel{
+    height: 700px;
+    width: 400px;
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    border: 1px;
+    margin: 0 auto;
+    padding-top:6%;
+    box-sizing: border-box;
+}
+
+.ingresar_Panel input {
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.ingresar_Panel input[type="email"], .ingresar_Panel input[type="password"] {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    height: 35px;
+    color: #0E263E;
+    background: #FFFFFF;
+    font-size: 15px
+}
+
+.ingresar_Panel input[type="submit"] {
+    margin: 10px;
+    height: 35px;
+    width: 200px;
+    background: #E48F27;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50%;
+    transform: translateX(-65%);
+}
+.ingresar_Panel input[type="submit"]:hover {
+    margin: 10px;
+    height: 35px;
+    width: 200px;
+    background: #0E263E;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50%;
+    transform: translateX(-65%);
+}
+
+.ingresar_Panel a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #003B80;
+    padding: 10px;
+    display:block;  
+    margin-left: 50%;
+    transform: translateX(-40%);
+}
+
+.Logo{
+    width: 35%;
+    top: 5%;
+    padding: 10px;
+    margin-left: 50%;
+    transform: translateX(-65%);
+    
+}
+
+.ret{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    justify-content: left;
+}
+

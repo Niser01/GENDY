@@ -1,0 +1,81 @@
+body{
+    background:#EFEFEF;;
+    margin: 20%;
+    padding: 5px;
+    font-family: Ancizar Sans, sans-serif;
+    color: #003B80;
+}
+
+.registro_Cliente{
+    height: 700px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    border: 1px;
+    margin: 0 auto;
+    padding: 70px 30px;
+    box-sizing: border-box;
+}
+
+.registro_Cliente h1{
+    margin: 1px;
+    padding: 10px 10px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.registro_Cliente h2{
+    margin: 1px;
+    padding: 30px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.registro_Cliente label{
+    margin: 1px;
+    padding: 8px;
+    display:block;  
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.registro_Cliente input {
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.registro_Cliente input[type="email"], .registro_Cliente input[type="password"], .registro_Cliente input[type="text"], .registro_Cliente input[type="number"]{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    height: 35px;
+    color: #003B80;
+    background: #FFFFFF;
+    font-size: 15px;
+}
+
+.registro_Cliente input[type="submit"] {
+    margin: 30px;
+    height: 35px;
+    width: 200px;
+    background: #003B80;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    transform: translateX(25%);
+}
+
+.registro_Cliente a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #003B80;
+    padding: 10px;
+    display:block;  
+    text-align: center
+}
