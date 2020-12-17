@@ -1,0 +1,59 @@
+body{
+
+    background: #ffffff;
+    font-family: Ancizar Sans, sans-serif;
+    font-size: x-large;
+    color: #0E263E;
+    text-align: center;
+    background-image: url(Imagenes/Gendy_Fondo_home.png);
+    background-size: cover;
+ 
+}
+
+.Logo{
+    width: 35%;
+    position: relative;     
+}
+
+.boton_negocio{
+    height: 35px;
+    width: 200px;
+    background: #E48F27;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+.boton_negocio:hover{
+    height: 35px;
+    width: 200px;
+    background: #0E263E;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+
+.boton_cliente{
+    height: 35px;
+    width: 200px;
+    background: #E48F27;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+
+.boton_cliente:hover{
+    height: 35px;
+    width: 200px;
+    background: #0E263E;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+
+.copyright{
+    font-size: 10px;
+}
